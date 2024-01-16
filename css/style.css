@@ -1,0 +1,21 @@
+/* height standard*/
+
+section {
+    height: 26px;
+    color: white;
+}
+
+* h1 {
+    text-transform: capitalize;
+    color: black;
+}
+
+.row {
+    background-color: #006cfa;
+    border: solid 1px white;
+}
+
+[class*="col-"] {
+    text-align: center;
+    border: solid 1px white;
+}
