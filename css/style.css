@@ -1,21 +1,44 @@
-/* height standard*/
+body {
+    background-color: rgb(34, 34, 34);
+    font-family: sans-serif;
+}
 
 section {
-    height: 26px;
+    text-transform: uppercase;
     color: white;
+    font-size: small;
+    font-weight: 100;
+
 }
+
+#box-1 {
+    margin-bottom: 30px;
+}
+
 
 * h1 {
     text-transform: capitalize;
-    color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px;
 }
 
 .row {
     background-color: #006cfa;
-    border: solid 1px white;
+    border: solid 1px rgb(34, 34, 34);
 }
 
 [class*="col-"] {
+    padding: 12px;
     text-align: center;
-    border: solid 1px white;
+    border: solid 1px rgb(34, 34, 34);
+
+}
+
+.blank {
+    min-height: 41px;
+    padding: 0;
+}
+
+.nested {
+    background-color: #00e164;
 }
